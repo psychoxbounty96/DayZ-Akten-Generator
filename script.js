@@ -28,23 +28,15 @@ const CONFIG = {
 };
 
 const TALENTS = [
-  "Jäger",
-  "Mechaniker",
-  "Koch",
-  "Elektriker",
-  "Schütze",
   "Sanitäter",
+  "Mechaniker",
   "Handwerker",
+  "Jäger",
   "Landwirt",
-  "Fahrer",
-  "Funker",
-  "Angler",
-  "Überlebenskünstler",
-  "Händler",
-  "Schleicher",
-  "Entdecker",
-  "Diplomat",
-  "Sonstiges"
+  "Fischer",
+  "Schneider",
+  "Schuhmacher",
+  "Waffenschmied"
 ];
 
 const elements = {
