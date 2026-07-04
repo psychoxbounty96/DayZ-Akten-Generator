@@ -10,7 +10,7 @@ const CONFIG = {
   // Die Koordinaten beziehen sich auf das Originalbild: 1536 x 1152 px.
   positions: {
     subjectNumber: { x: 1055, y: 118 },
-    name: { x: 905, y: 185 },
+    name: { x: 905, y: 186 },
     talent1: { x: 880, y: 1000 },
     talent2: { x: 880, y: 1030 }
   },
