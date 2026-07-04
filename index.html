@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DayZ RP – Akten Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="panel controls" aria-labelledby="app-title">
+      <p class="eyebrow">Internes Admin-Tool</p>
+      <h1 id="app-title">DayZ RP – Akten Generator</h1>
+      <p class="hint">
+        Erstellt lokal im Browser eine fertige PNG-Akte. Es werden keine Daten gespeichert oder übertragen.
+      </p>
+
+      <form id="recordForm">
+        <label class="field">
+          <span>Subjektnummer</span>
+          <input id="subjectNumber" name="subjectNumber" type="text" autocomplete="off" placeholder="z. B. DZ-042" />
+        </label>
+
+        <label class="field">
+          <span>Name</span>
+          <input id="characterName" name="characterName" type="text" autocomplete="off" placeholder="Max Mustermann" required />
+        </label>
+
+        <fieldset class="talents">
+          <legend>Talente <small>(genau 2 auswählen)</small></legend>
+          <div id="talentList" class="talent-list"></div>
+        </fieldset>
+
+        <p id="statusText" class="status" role="status">Bitte genau zwei Talente auswählen.</p>
+
+        <button id="createBtn" type="submit" disabled>Akte erstellen</button>
+      </form>
+    </section>
+
+    <section class="panel preview-panel" aria-labelledby="preview-title">
+      <h2 id="preview-title">Vorschau</h2>
+      <canvas id="previewCanvas" width="1536" height="1152" aria-label="Akte Vorschau"></canvas>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
