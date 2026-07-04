@@ -11,8 +11,8 @@ const CONFIG = {
   positions: {
     subjectNumber: { x: 1055, y: 118 },
     name: { x: 905, y: 186 },
-    talent1: { x: 900, y: 1000 },
-    talent2: { x: 900, y: 1030 }
+    talent1: { x: 900, y: 1020 },
+    talent2: { x: 900, y: 1050 }
   },
 
   text: {
